@@ -26,15 +26,23 @@ h1 {
       padding-top: 10px;
 }
 
+#about p {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 1.3em;
+}
+
 h2 {
     font-weight: bold;
     padding-top: 15px;
+    padding-left: 10px;
 }
 
 h3 {
     font-weight: bold;
     padding-top: 10px;
     font-size: 4vh;
+    padding-left: 10px;
 }
 
 h4 {
@@ -101,6 +109,9 @@ footer {
     padding-bottom: 10px;
 } */
 
+#faq-q {
+  padding-left: 10px;
+}
 #team {
     padding-left: 15px;
     color: white;
@@ -117,6 +128,15 @@ footer {
     color: white;
     word-wrap: break-word;
 }
+
+#topics-resources {
+    /* background-color: #04B2B1; */
+    background-color: #6ab04c;
+    color: white;
+    word-wrap: break-word;
+}
+
+
 
 .blockquote-footer{
   color: white;
@@ -144,6 +164,21 @@ footer {
       width: 110%;   
     }
 }
+
+@media (width: 375px) {
+  .intro-banner {
+      height: 75%; 
+      width: 110%;   
+    }
+}
+
+@media (width: 411px) {
+  .intro-banner {
+      height: 75%; 
+      width: 110%;   
+    }
+}
+
 @media (width: 768px) {
   .intro-banner {
       height: 82%; 
@@ -158,7 +193,6 @@ footer {
 }
 
 .col {
-    /*height: 110%; */
     width: 110%; 
     /* position:absolute; */
 }
@@ -255,18 +289,22 @@ footer {
     }
 }
 
+#card-deck {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 #other-topics {
   padding-top: 50px;
   font-weight: normal;
   font-size: 1.5em;
 }
 
+
 #team-cards {
-  /* padding-left: 10px;
+  padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 50px; */
-  margin:auto;
-}
+} 
 
 #featured-card ,#team-cards .card {
   position: relative;
