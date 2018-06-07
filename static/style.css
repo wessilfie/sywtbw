@@ -79,10 +79,7 @@ footer {
 }
 
 #scroll {
-    position: relative;
-    right: 0;
-    left: 0;
-    bottom: 0;
+ margin: auto;
 }
 
 #about {
@@ -142,15 +139,15 @@ footer {
   color: white;
 }
 
-.intro-banner {
-      height: 70%; 
-      width: 110%;   
-} 
+
+#intro-page {
+  height: 68vh;
+  
+}
 
 @media (max-width: 480px) {
-  .intro-banner {
-      height: 72%; 
-      width: 110%;   
+  #intro-page {
+      height: 71vh;  
     }
 
    #resource-cards {
@@ -159,38 +156,34 @@ footer {
 }
 
 @media (width: 320px) {
-  .intro-banner {
-      height: 61%; 
-      width: 110%;   
+  #intro-page {
+    height: 60vh;   
     }
 }
 
 @media (width: 375px) {
-  .intro-banner {
-      height: 75%; 
-      width: 110%;   
+  #intro-page {
+      height: 73vh;  
     }
 }
 
 @media (width: 411px) {
-  .intro-banner {
-      height: 75%; 
-      width: 110%;   
+  #intro-page {
+      height: 74vh;  
     }
 }
 
 @media (width: 768px) {
-  .intro-banner {
-      height: 82%; 
-      width: 110%;   
+  #intro-page {
+      height: 79vh;  
     }
 }
 @media (width: 1024px) {
-  .intro-banner {
-      height: 87%; 
-      width: 110%;   
+  #intro-page {
+      height: 84vh;  
     }
 }
+
 
 .col {
     width: 110%; 

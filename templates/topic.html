@@ -2,38 +2,27 @@
 
 {% include "header.html" %}
 
-
+<html>
 <body>
     {% include "nav.html" %}
 
+    <div class="col text-center intro-text intro-banner"id="intro-page">
+        <div id="centering-new-lines">
+            <br>
+        </div>
+        <p class="animated zoomIn" id="home-text">So you want to be woke on<br/> {{topic}}.</p>
+        
+  </div> 
+
+          <a id="scroll" href="#about">
+        <img height="100" width="100" src="{{url_for('static', filename='img/arrow-white.svg')}}"/> 
+        </a>
+
+
+
+
+
           <div class="container-fluid">
-
-                <div class="row" id="intro">
-                  <div class="col text-center intro-text intro-banner" id="intro">
-                      <div id="centering-new-lines">
-                        <br/> 
-                        <br/>
-                        <br/>
-                        </div>
-                        <p class="animated zoomIn" id="home-text">So you want to be woke on<br/> {{topic}}.</p>
-                        <br/>
-                        <br/>
-                        <br/>
-                  </div> 
- 
-
-                </div>
-                <!-- Scroll down arrow that links to About section-->
-                <div class="row">
-                    <div class="col">
-                            <a id="scroll" href="#about">
-                            <!-- <img src="https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-08-256.png"/> -->
-                            <img src="{{url_for('static', filename='img/arrow-white.svg')}}"/> 
-
-                            </a>
-                    </div>
-                </div>
-
                 <div class="row">
                   <div class="col" id="about">
                     <h2 id="about"> About The Topic </h2>
@@ -62,7 +51,6 @@
                         <p> Resource photos provided by <a href="https://unsplash.com/">Unsplash</a>. </p>
                     </div>
                 </div>
-             <!-- {% include "intersectionality.html" %} -->
             </div> 
 
       <script>
@@ -73,4 +61,4 @@
     </script>
 {% include "footer.html" %}
 </body>
-</DOCTYPE>
+</html>
