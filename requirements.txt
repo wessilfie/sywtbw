@@ -1,0 +1,4 @@
+Flask==0.12.2
+pandas==0.22.0
+PyYAML==3.12
+validators==0.12.2
