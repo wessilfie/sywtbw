@@ -27,7 +27,7 @@ def make_card(data):
       	</div>
       	<div class="card-body">
         	<h4 class="card-title">{0}</h4>
-        	 <footer class="blockquote-footer">Submitted by <a href="{3}" target="_blank"><cite title="Source Title">{4}</cite></a></footer>
+        	 <footer class="blockquote-footer">Submitted by <a href="{3}"><cite title="Source Title">{4}</cite></a></footer>
         	<p class="card-text">{1}</p>
         	<a href="{2}" class="btn btn-primary" target="_blank">Learn More</a>
       		</div>

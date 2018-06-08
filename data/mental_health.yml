@@ -1,9 +1,9 @@
 data:
   mental_health:
-    - submitted_by: Will Essilfie
-      social_media: https://twitter.com/WillEssilfie
-      title: TESTING
-      description: TESTING
-      content_link: https://twitter.com/WillEssilfie
-      isIntersectional: True
-      img_link: 
+  - content_link: https://advice.shinetext.com/articles/in-honor-of-mental-health-month-lets-get-real-about-how-we-feel/?utm_source=Shine&utm_medium=Twitter
+    description: This is a great article that helps you think about how you feel and
+      how to approach thinking about and expressing your feelings.
+    isIntersectional: false
+    social_media: https://twitter.com/YefriGaitan1
+    submitted_by: Yefri Gaitan
+    title: In Honor of Mental Health Month, Let's Get Real About How We Feel

@@ -24,11 +24,6 @@ def topic(topic):
 	return render_template('topic.html', topic=topic, title=title_placement,
 	definition=definition ,resources=resources, definition_link=definition_link)
 
-@app.route("/team", methods=['GET'])
-def team():
-	return render_template('team.html')
-
-
 # Return 404 if user goes to an invalid page
 @app.errorhandler(404)
 def page_not_found(e):
@@ -37,4 +32,4 @@ def page_not_found(e):
 
 
 if __name__ == "__main__":
-	app.run()
+	app.run(debug=True)

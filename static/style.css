@@ -6,6 +6,7 @@ body {
     margin: 0%;
     background-color:#3498db;   
     overflow-x: hidden;
+    font-weight: normal;
 }
 
 /* body, #intro {
@@ -157,7 +158,7 @@ footer {
 
 @media (width: 320px) {
   #intro-page {
-    height: 60vh;   
+    height: 58vh;   
     }
 }
 
@@ -187,10 +188,12 @@ footer {
 
 .col {
     width: 110%; 
-    /* position:absolute; */
 }
 
 
+a#footer-link {
+  font-weight: normal;
+}
 
 a {
     color: white;
@@ -235,6 +238,7 @@ img {
 
 footer {
     color: white;
+    font-weight: normal;
 }
 
 .col img {
@@ -248,38 +252,6 @@ footer {
     margin-top: 25px;
     line-height: 22px;
     letter-spacing: -0.0042117em;
-}
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
 }
 
 #card-deck {
