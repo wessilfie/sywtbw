@@ -1,9 +1,9 @@
 data:
   lgbtq_identity:
-    - submitted_by: Will Essilfie
-      social_media: https://twitter.com/WillEssilfie
-      title: TESTING
-      description: TESTING
-      content_link: https://twitter.com/WillEssilfie
-      isIntersectional: True
-      img_link: 
+  - content_link: https://rewire.news/article/2018/05/11/lgbtq-girls-much-likely-face-discipline-school/
+    description: Learn more about the school-to-prison pipeline and how it dispraportionately
+      affects LGBTQ+ women, especially trans, black, and latinx women.
+    isIntersectional: true
+    social_media: https://twitter.com/lesleyclovesyou
+    submitted_by: Lesley Cordero
+    title: LGBTQ Girls Are Much More Likely to Face Discipline in School

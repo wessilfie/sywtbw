@@ -15,14 +15,6 @@ data:
     social_media: '#'
     submitted_by: Lesley Cordero
     title: 'Diversity and inclusion: Stop talking and do your homework'
-  - content_link: https://byrslf.co/the-women-in-tech-movement-is-victim-blaming-bullshit-1861e6fffedf
-    description: Hosting more events for women in tech is nice, but does nothing to
-      actually effect culture. This article dives into actionable steps to make the
-      tech sector more inclusive to women.
-    isIntersectional: false
-    social_media: https://www.twitter.com/WillEssilfie
-    submitted_by: Will Essilfie
-    title: "The\u201CWomen in Tech\u201D movement is full of victim blaming bullshit"
   - content_link: https://medium.com/@nmsanchez/which-women-in-tech-371e721e71c4
     description: Supporting women in tech is critical and evident. Yet many of the
       strategies in place often fail women of color. Read this to better understand
@@ -51,3 +43,18 @@ data:
     social_media: https://twitter.com/lesleyclovesyou
     submitted_by: Lesley Cordero
     title: More white women does not equal tech diversity
+  - content_link: https://byrslf.co/the-women-in-tech-movement-is-victim-blaming-bullshit-1861e6fffedf
+    description: Hosting more events for women in tech is nice, but does little to
+      impact culture. This article dives into actionable steps to make the tech sector
+      more inclusive to women.
+    isIntersectional: false
+    social_media: https://www.twitter.com/WillEssilfie
+    submitted_by: Will Essilfie
+    title: "The\u201CWomen in Tech\u201D movement is full of victim blaming bullshit"
+  - content_link: https://ada.is/blog/2018/04/16/help-someone-has-pointed-out-my-conference-has-diversity-issues/
+    description: Looking for tips on how to organize a diverse and inclusive tech
+      conference? Read these tips by Ada Cannon.
+    isIntersectional: true
+    social_media: https://twitter.com/lesleyclovesyou
+    submitted_by: Lesley Cordero
+    title: "\u201CHelp! someone has pointed out my conference has diversity issues!\""

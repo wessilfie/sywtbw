@@ -12,6 +12,9 @@ def make_card(data):
 	'https://source.unsplash.com/600x300/?female',
 	'https://source.unsplash.com/600x300/?team',
 	'https://source.unsplash.com/600x300/?business',
+	'https://source.unsplash.com/600x300/?city',
+	'https://source.unsplash.com/600x300/?love',
+	'https://source.unsplash.com/600x300/?architecture',
 	'https://source.unsplash.com/600x300/?woman',
 	'https://source.unsplash.com/600x300/?africa',
 	'https://source.unsplash.com/600x300/?afro',
@@ -48,15 +51,15 @@ def generate_card_deck(data):
 
 def read_data(topic):
 	file_path = "data/" + topic + ".yml"
-	with open(file_path, 'r') as yml_data:
-		try:
-			data = yaml.safe_load(yml_data)
-			results = generate_card_deck(data['data'][topic])
-			return results
-		except:
-			# if results cannot be found, return alert stating that
-			no_results = """ <div class="alert alert-danger" role="alert">
- 			 Unfortunately, we don't have any resources yet for this topic. See <a href="/#faq" class="alert-link"> here</a>
- 			  to suggest content we should share.
-			</div>"""
-			return no_results
+	try:
+		with open(file_path, 'r') as yml_data:
+				data = yaml.safe_load(yml_data)
+				results = generate_card_deck(data['data'][topic])
+				return results
+	except:
+		# if results cannot be found, return alert stating that
+		no_results = """ <div class="alert alert-danger" role="alert">
+			 Unfortunately, we don't have any resources for this topic yet. Click <a target="__blank" href="http://bit.ly/wokecontent" class="alert-link"> here</a>
+			  to recommend content.
+		</div>"""
+		return no_results
