@@ -30,6 +30,9 @@ def page_not_found(e):
 	error = "We couldn't find the page you searched for."
 	return render_template('home.html', error=error), 404
 
+@app.route("/api/topics", methods=['GET'])
+def get_topics():
+    return jsonify({'response': 200, 'results': list(definitions.keys())})
 
 if __name__ == "__main__":
 	app.run(debug=True)
